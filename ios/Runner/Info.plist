@@ -24,6 +24,14 @@
 	<string>App would like to access camera to allow user to take photo to update profile picture or take picture to leave a review about a good or bad work</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>App would like to acces your location to specify to handyman worker wher he has to come and work. you can change the location where you want the work to be realesed when the handyman worker will call you to the phone</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+        <string>Always and when in use!</string>
+        <key>NSLocationUsageDescription</key>
+        <string>Older devices need location.</string>
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>Can I have location always?</string>
+        <key>NSUserTrackingUsageDescription</key>
+        <string>appTrackingTransparency</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
