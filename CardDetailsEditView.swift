@@ -34,7 +34,7 @@ class CardDetailsEditView: UIView, STP_Internal_CardScanningViewDelegate {
     var deviceOrientation: UIDeviceOrientation = UIDevice.current.orientation {
         didSet {
             if #available(iOS 13.0, macCatalyst 14.0, *) {
-                cardScanningView?.deviceOrientation = deviceOrientation
+               // cardScanningView?.deviceOrientation = deviceOrientation
             }
         }
     }
