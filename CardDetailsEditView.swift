@@ -87,17 +87,17 @@ class CardDetailsEditView: UIView, STP_Internal_CardScanningViewDelegate {
         }
     }
 
-     if #available(iOS 13.0, macCatalyst 14, *) {
-    lazy var cardScanningView: CardScanningView? = {
-        if !STPCardScanner.cardScanningAvailable() {
-            return nil  // Don't initialize the scanner
-        }
-        let scanningView = CardScanningView()
-        scanningView.alpha = 0
-        scanningView.isHidden = true
-        return scanningView
-   }()
-     }
+   //  if #available(iOS 13.0, macCatalyst 14, *) {
+   // lazy var cardScanningView: CardScanningView? = {
+    //    if !STPCardScanner.cardScanningAvailable() {
+      //      return nil  // Don't initialize the scanner
+      //  }
+      //  let scanningView = CardScanningView()
+      //  scanningView.alpha = 0
+      //  scanningView.isHidden = true
+       // return scanningView
+   //}()
+    // }
 
     weak var lastScanButton: UIButton?
     @objc func scanButtonTapped(_ button: UIButton) {
