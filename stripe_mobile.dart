@@ -63,4 +63,4 @@ class StripeMobile{
     onSuccess("Payment $currency${amount/100} stripe:${paymentIntent["id"]}");
     return true;
   }
-}%                                                  
+}                                               
