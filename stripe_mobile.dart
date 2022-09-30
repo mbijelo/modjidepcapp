@@ -41,8 +41,8 @@ class StripeMobile{
 
     await Stripe.instance.initPaymentSheet(
       paymentSheetParameters: SetupPaymentSheetParameters(
-        applePay: true,
-        googlePay: true,
+        applePay: nil,
+        googlePay: nil,
         style: ThemeMode.dark,
        // testEnv: true,
         // merchantCountryCode: 'UK',
